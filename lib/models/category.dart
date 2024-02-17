@@ -45,9 +45,15 @@ List<Category> dummyCategories = [
     onTap: () {},
   ),
   Category(
-    id: '1',
+    id: '6',
     title: 'Cake',
     imageUrl: 'assets/images/cake.png',
+    onTap: () {},
+  ),
+  Category(
+    id: '7',
+    title: 'Pasta',
+    imageUrl: 'assets/images/pasta.png',
     onTap: () {},
   ),
 ];

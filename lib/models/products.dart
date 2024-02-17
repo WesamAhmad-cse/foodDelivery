@@ -59,30 +59,65 @@ List<Product> dummyProducts = [
       price: 8.99),
   Product(
       id: '6',
-      category: dummyCategories[1],
+      category: dummyCategories[6],
       name: 'Lazania',
       imageUrl:
           'https://www.pngkey.com/png/full/155-1551891_0-chicken-lasagna-pasta-png.png',
       price: 8.99),
   Product(
+      id: '6',
+      category: dummyCategories[6],
+      name: 'Fettuccine Alfredo',
+      imageUrl:
+          'https://static.vecteezy.com/system/resources/previews/035/906/770/non_2x/ai-generated-fettuccine-alfredo-pasta-with-basil-garnish-free-png.png',
+      price: 9.99),
+  Product(
+      id: '6',
+      category: dummyCategories[6],
+      name: 'Bolognese',
+      imageUrl:
+          'https://static.vecteezy.com/system/resources/previews/027/297/814/non_2x/spaghetti-with-tomato-sauce-and-basil-in-a-plate-isolated-on-white-background-ai-generate-png.png',
+      price: 6.99),
+  Product(
       id: '7',
       category: dummyCategories[1],
-      name: 'Koshary',
+      name: 'Beef Taco',
       imageUrl:
-          'https://static.wixstatic.com/media/7f9493_a6e4ce2c09dc4b1e8f878029fc18fd13~mv2.png/v1/fill/w_440,h_438,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/7f9493_a6e4ce2c09dc4b1e8f878029fc18fd13~mv2.png',
+          'https://cdn.pixabay.com/photo/2023/07/24/17/09/mexican-8147497_640.png',
       price: 6.99),
   Product(
       id: '8',
-      category: dummyCategories[3],
+      category: dummyCategories[4],
       name: 'Fried Chicken',
       imageUrl:
           'https://www.freepnglogos.com/uploads/fried-chicken-png/crispy-fried-chicken-png-0.png',
       price: 7.99),
   Product(
       id: '9',
-      category: dummyCategories[3],
+      category: dummyCategories[4],
       name: 'Grilled Chicken',
       imageUrl:
           'https://static.vecteezy.com/system/resources/previews/021/665/568/original/delicious-grilled-chicken-cutout-png.png',
       price: 9.99),
+  Product(
+      id: '10',
+      category: dummyCategories[5],
+      name: 'cup Cake',
+      imageUrl:
+          'https://img.freepik.com/free-psd/freshly-cupcake-png-isolated-transparent-background_191095-9778.jpg',
+      price: 5.99),
+  Product(
+      id: '10',
+      category: dummyCategories[5],
+      name: 'Blackberry Cake',
+      imageUrl:
+          'https://img.freepik.com/free-psd/tasty-blackberry-cake-isolated-transparent-background_191095-10372.jpg',
+      price: 6.00),
+  Product(
+      id: '10',
+      category: dummyCategories[5],
+      name: 'Vanilla Cake',
+      imageUrl:
+          'https://img.freepik.com/free-psd/delicious-vanilla-cake-decorated-with-berries-isolated-transparent-background_191095-11775.jpg',
+      price: 4.99),
 ];
