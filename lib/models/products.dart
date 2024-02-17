@@ -104,20 +104,13 @@ List<Product> dummyProducts = [
       category: dummyCategories[5],
       name: 'cup Cake',
       imageUrl:
-          'https://img.freepik.com/free-psd/freshly-cupcake-png-isolated-transparent-background_191095-9778.jpg',
+          'https://static.vecteezy.com/system/resources/previews/024/684/684/non_2x/sweet-watercolor-cupcake-transparent-background-isolated-no-background-ai-generative-free-png.png',
       price: 5.99),
   Product(
       id: '10',
       category: dummyCategories[5],
       name: 'Blackberry Cake',
       imageUrl:
-          'https://img.freepik.com/free-psd/tasty-blackberry-cake-isolated-transparent-background_191095-10372.jpg',
+          'https://static.vecteezy.com/system/resources/previews/027/145/506/non_2x/delicious-blackberry-cake-with-fresh-blackberries-on-transparent-background-png.png',
       price: 6.00),
-  Product(
-      id: '10',
-      category: dummyCategories[5],
-      name: 'Vanilla Cake',
-      imageUrl:
-          'https://img.freepik.com/free-psd/delicious-vanilla-cake-decorated-with-berries-isolated-transparent-background_191095-11775.jpg',
-      price: 4.99),
 ];
