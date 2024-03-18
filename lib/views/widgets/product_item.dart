@@ -73,7 +73,9 @@ class _ProductItemState extends State<ProductItem> {
                 child: Padding(
                   padding: const EdgeInsets.all(4.0),
                   child: Icon(
-                    Icons.favorite_border,
+                    favProducts.contains(widget.dummyProduct)
+                        ? Icons.favorite
+                        : Icons.favorite_border,
                     color: Theme.of(context).primaryColor,
                   ),
                 ),

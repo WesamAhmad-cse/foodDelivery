@@ -4,19 +4,33 @@ import 'package:fooddelivery_app/utils/app_colors.dart';
 import 'package:fooddelivery_app/views/widgets/counter_widget.dart';
 import 'package:fooddelivery_app/views/widgets/product_specs_item.dart';
 
-class ProductDetailsPage extends StatelessWidget {
-  final Product product;
-  const ProductDetailsPage({super.key, required this.product});
+class ProductDetailsPage extends StatefulWidget {
+  // final Product product;
+  const ProductDetailsPage({super.key});
 
   @override
+  State<ProductDetailsPage> createState() => _ProductDetailsPageState();
+}
+
+class _ProductDetailsPageState extends State<ProductDetailsPage> {
+  @override
   Widget build(BuildContext context) {
+    final product = ModalRoute.of(context)!.settings.arguments as Product;
     return Scaffold(
         appBar: AppBar(
           backgroundColor: AppColor.grey2,
           actions: [
             IconButton(
-              onPressed: () {},
-              icon: const Icon(Icons.favorite_border),
+              onPressed: () {
+                setState(() {
+                  favProducts.contains(product)
+                      ? favProducts.remove(product)
+                      : favProducts.add(product);
+                });
+              },
+              icon: Icon(favProducts.contains(product)
+                  ? Icons.favorite
+                  : Icons.favorite_border),
             ),
           ],
         ),
